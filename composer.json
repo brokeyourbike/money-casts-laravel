@@ -22,8 +22,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.4|^8.0",
-        "moneyphp/money": "v4",
+        "php": "^7.4 || ^8.0",
+        "moneyphp/money": "v3 || v4",
         "illuminate/database": "^8"
     },
     "require-dev": {
