@@ -19,8 +19,8 @@ composer require brokeyourbike/money-casts-laravel
 ## Usage
 
 ```php
-namespace BrokeYourBike\MoneyCasts\CurrencyCast;
-namespace BrokeYourBike\MoneyCasts\MoneyCast;
+use BrokeYourBike\MoneyCasts\CurrencyCast;
+use BrokeYourBike\MoneyCasts\MoneyCast;
 
 class Order
 {
