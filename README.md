@@ -26,7 +26,7 @@ class Order
 {
     protected $casts = [
         'currency' => CurrencyCast::class . ':currency_code',
-        'amount' => AmountCast::class . ':amount_in_cents',
+        'amount' => MoneyCast::class . ':amount_in_cents',
     ];
 }
 ```
