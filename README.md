@@ -19,10 +19,11 @@ composer require brokeyourbike/money-casts-laravel
 ## Usage
 
 ```php
+use Illuminate\Database\Eloquent\Model;
 use BrokeYourBike\MoneyCasts\CurrencyCast;
 use BrokeYourBike\MoneyCasts\MoneyCast;
 
-class Order
+class Order extends Model
 {
     protected $casts = [
         'currency' => CurrencyCast::class . ':currency_code',
