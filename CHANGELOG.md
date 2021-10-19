@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://www.github.com/brokeyourbike/money-casts-laravel/compare/v1.0.0...v1.0.1) (2021-10-19)
+
+
+### Bug Fixes
+
+* make soft dependency on money ([356cb83](https://www.github.com/brokeyourbike/money-casts-laravel/commit/356cb83312529ff43c926e888efaf45c16db7780))
+
 ## 1.0.0 (2021-10-19)
 
 
