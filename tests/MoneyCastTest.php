@@ -42,7 +42,7 @@ class MoneyCastTest extends TestCase
     /**
      * @test
      * @dataProvider storedValuesProvider */
-    public function it_should_throw_if_stored_amount_value_is(mixed $storedValue, bool $shouldThrow)
+    public function it_should_throw_if_stored_amount_value_is($storedValue, $shouldThrow)
     {
         $order = new AdvancedOrderFixture();
         $order->currency_code = 'GBP';
