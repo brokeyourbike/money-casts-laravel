@@ -19,6 +19,16 @@ composer require brokeyourbike/money-casts-laravel
 ## Usage
 
 ```php
+namespace BrokeYourBike\MoneyCasts\CurrencyCast;
+namespace BrokeYourBike\MoneyCasts\MoneyCast;
+
+class Order
+{
+    protected $casts = [
+        'currency' => CurrencyCast::class . ':currency_code',
+        'amount' => AmountCast::class . ':amount_in_cents',
+    ];
+}
 ```
 
 ## License
