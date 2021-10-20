@@ -8,7 +8,7 @@
 [![codecov](https://codecov.io/gh/brokeyourbike/money-casts-laravel/branch/main/graph/badge.svg?token=ImcgnxzGfc)](https://codecov.io/gh/brokeyourbike/money-casts-laravel)
 [![Type Coverage](https://shepherd.dev/github/brokeyourbike/money-casts-laravel/coverage.svg)](https://shepherd.dev/github/brokeyourbike/money-casts-laravel)
 
-Cast attributes to Money object
+Cast attributes to [Money](https://github.com/moneyphp/money) objects
 
 ## Installation
 
