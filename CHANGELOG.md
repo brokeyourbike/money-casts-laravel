@@ -1,5 +1,23 @@
 # Changelog
 
+### [1.0.2](https://www.github.com/brokeyourbike/money-casts-laravel/compare/v1.0.1...v1.0.2) (2021-10-22)
+
+
+### Bug Fixes
+
+* do not require `illuminate/database` ([6d67528](https://www.github.com/brokeyourbike/money-casts-laravel/commit/6d67528c431463332e0af96f0a0f774475121c46))
+
+
+### Miscellaneous Chores
+
+* add badges ([d2d99dc](https://www.github.com/brokeyourbike/money-casts-laravel/commit/d2d99dca59a4d8052344c605547126edfd63be04))
+* add link to Money package ([8247afd](https://www.github.com/brokeyourbike/money-casts-laravel/commit/8247afd8a22f45751a060aec60bfb90cafd55ad3))
+* adjust example ([d98d300](https://www.github.com/brokeyourbike/money-casts-laravel/commit/d98d3005d917acbbc18d5bf6befd272fdeb87567))
+* make it obvious that Order is a Model ([52c491c](https://www.github.com/brokeyourbike/money-casts-laravel/commit/52c491c87cfc1aaee08679ad72de0ad3d95186e6))
+* money cast should have 2 params ([1fb0958](https://www.github.com/brokeyourbike/money-casts-laravel/commit/1fb09581e4b493b564bbc606826273df6446b595))
+* update badges ([c6f29f0](https://www.github.com/brokeyourbike/money-casts-laravel/commit/c6f29f04b3fefd0204cc7cc494521fab4fbd0e27))
+* update usage example ([2d13dac](https://www.github.com/brokeyourbike/money-casts-laravel/commit/2d13dac181ddf7b355818bffef97f1fb0d3d5ad4))
+
 ### [1.0.1](https://www.github.com/brokeyourbike/money-casts-laravel/compare/v1.0.0...v1.0.1) (2021-10-19)
 
 
