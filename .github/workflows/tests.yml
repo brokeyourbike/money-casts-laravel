@@ -1,4 +1,4 @@
-name: ci
+name: tests
 
 on:
   push:
@@ -35,3 +35,11 @@ jobs:
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
         files: ./coverage.xml
+
+    - name: Upload coverage to codeclimate
+      uses: paambaati/codeclimate-action@v3.0.0
+      env:
+        CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_TOKEN }}
+      with:
+        coverageCommand: ''
+        coverageLocations: ./coverage.xml:clover

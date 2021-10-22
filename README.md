@@ -4,9 +4,9 @@
 [![Total Downloads](https://poser.pugx.org/brokeyourbike/money-casts-laravel/downloads)](https://packagist.org/packages/brokeyourbike/money-casts-laravel)
 [![License: MPL-2.0](https://img.shields.io/badge/license-MPL--2.0-purple.svg)](https://github.com/brokeyourbike/money-casts-laravel/blob/main/LICENSE)
 
-[![ci](https://github.com/brokeyourbike/money-casts-laravel/actions/workflows/ci.yml/badge.svg)](https://github.com/brokeyourbike/money-casts-laravel/actions/workflows/ci.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/f99d65901d74370f68e0/maintainability)](https://codeclimate.com/github/brokeyourbike/money-casts-laravel/maintainability)
-[![codecov](https://codecov.io/gh/brokeyourbike/money-casts-laravel/branch/main/graph/badge.svg?token=ImcgnxzGfc)](https://codecov.io/gh/brokeyourbike/money-casts-laravel)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/f99d65901d74370f68e0/test_coverage)](https://codeclimate.com/github/brokeyourbike/money-casts-laravel/test_coverage)
+[![tests](https://github.com/brokeyourbike/money-casts-laravel/actions/workflows/tests.yml/badge.svg)](https://github.com/brokeyourbike/money-casts-laravel/actions/workflows/tests.yml)
 
 Cast attributes to [Money](https://github.com/moneyphp/money) objects
 
