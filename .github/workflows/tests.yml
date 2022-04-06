@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 5
     strategy:
       matrix:
-        php-version: [7.4,8.0]
+        php-version: [8.0]
 
     steps:
     - name: Checkout code
@@ -32,12 +32,14 @@ jobs:
 
     - name: Upload coverage
       uses: codecov/codecov-action@v2
+      continue-on-error: true
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
         files: ./coverage.xml
 
     - name: Upload coverage to codeclimate
       uses: paambaati/codeclimate-action@v3.0.0
+      continue-on-error: true
       env:
         CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_TOKEN }}
       with:
