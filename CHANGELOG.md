@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.3](https://www.github.com/brokeyourbike/money-casts-laravel/compare/v1.0.2...v1.0.3) (2022-04-06)
+
+
+### Bug Fixes
+
+* allow to use in laravel 9 ([a116f2b](https://www.github.com/brokeyourbike/money-casts-laravel/commit/a116f2be84cf3d3dda263a16953947e03dcef9e6))
+
 ### [1.0.2](https://www.github.com/brokeyourbike/money-casts-laravel/compare/v1.0.1...v1.0.2) (2021-10-22)
 
 

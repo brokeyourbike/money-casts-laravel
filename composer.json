@@ -31,7 +31,7 @@
         "phpunit/phpunit": "^9.5",
         "illuminate/database": "^8|^9"
     },
-    "version": "1.0.2",
+    "version": "1.0.3",
     "config": {
         "allow-plugins": {
             "bamarni/composer-bin-plugin": true
