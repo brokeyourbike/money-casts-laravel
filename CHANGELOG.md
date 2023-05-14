@@ -1,5 +1,17 @@
 # Changelog
 
+### [1.0.4](https://www.github.com/brokeyourbike/money-casts-laravel/compare/v1.0.3...v1.0.4) (2023-05-14)
+
+
+### Bug Fixes
+
+* homepage ([a4224cf](https://www.github.com/brokeyourbike/money-casts-laravel/commit/a4224cfcd63062fb48973481f9e9553dc7c17b37))
+
+
+### Miscellaneous Chores
+
+* badges ([4adf3b9](https://www.github.com/brokeyourbike/money-casts-laravel/commit/4adf3b918b97d192762a5050cbe8a39dafa8637f))
+
 ### [1.0.3](https://www.github.com/brokeyourbike/money-casts-laravel/compare/v1.0.2...v1.0.3) (2022-04-06)
 
 
