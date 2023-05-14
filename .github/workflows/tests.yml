@@ -16,13 +16,14 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Install PHP
       uses: shivammathur/setup-php@v2
       with:
         php-version: "${{ matrix.php-version }}"
-        coverage: "pcov"
+        extensions: bcmath
+        coverage: pcov
 
     - name: Install PHP dependencies
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
@@ -31,14 +32,14 @@ jobs:
       run: vendor/bin/phpunit --coverage-clover=coverage.xml
 
     - name: Upload coverage
-      uses: codecov/codecov-action@v2
+      uses: codecov/codecov-action@v3
       continue-on-error: true
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
         files: ./coverage.xml
 
     - name: Upload coverage to codeclimate
-      uses: paambaati/codeclimate-action@v3.0.0
+      uses: paambaati/codeclimate-action@v4
       continue-on-error: true
       env:
         CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_TOKEN }}

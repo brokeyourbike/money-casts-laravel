@@ -14,5 +14,5 @@ jobs:
       - uses: google-github-actions/release-please-action@v2
         with:
           release-type: php
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         if: ${{ steps.release.outputs.release_created }}
