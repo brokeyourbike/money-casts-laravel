@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.5](https://www.github.com/brokeyourbike/money-casts-laravel/compare/v1.0.4...v1.0.5) (2023-05-20)
+
+
+### Miscellaneous Chores
+
+* button ([978df08](https://www.github.com/brokeyourbike/money-casts-laravel/commit/978df08fb5814b7f7ee6157cba3b15f12a6b95fe))
+
 ### [1.0.4](https://www.github.com/brokeyourbike/money-casts-laravel/compare/v1.0.3...v1.0.4) (2023-05-14)
 
 
